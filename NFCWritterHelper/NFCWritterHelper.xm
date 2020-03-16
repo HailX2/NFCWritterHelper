@@ -5,34 +5,30 @@
 #endif
 
 #import <UIKit/UIKit.h>
+#import "EmulationViewController.h"
 
-%hook ClassName
 
-+ (id)sharedInstance
-{
-	%log;
 
-	return %orig;
+%hook EmulationViewController
+- (void)buttonTapped:(id)arg1{
+    UIView *view = arg1;
+    %log(@"hx----\n",view);
+    %orig;
+    
+}
+- (void)hostSessionDidStart:(id)arg1{
+    %log(@"hx----\n",arg1);
+    %orig;
+    
 }
 
-- (void)messageWithNoReturnAndOneArgument:(id)originalArgument
-{
-	%log;
+- (id)emulationNDEFMessage{
 
-	%orig(originalArgument);
-	
-	// or, for exmaple, you could use a custom value instead of the original argument: %orig(customValue);
-}
-
-- (id)messageWithReturnAndNoArguments
-{
-	%log;
-
-	id originalReturnOfMessage = %orig;
-	
-	// for example, you could modify the original return value before returning it: [SomeOtherClass doSomethingToThisObject:originalReturnOfMessage];
-
-	return originalReturnOfMessage;
+    
+  id a =  %orig;
+   %log(@"hx----\n",a);
+    
+    return a;
 }
 
 %end

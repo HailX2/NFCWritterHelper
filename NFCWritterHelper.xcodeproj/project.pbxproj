@@ -11,6 +11,7 @@
 		869F6E84241CABE4008BF306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E83241CABE4008BF306 /* Foundation.framework */; };
 		869F6E86241CABE4008BF306 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E85241CABE4008BF306 /* CydiaSubstrate.framework */; };
 		869F6E8F241CABE4008BF306 /* NFCWritterHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 869F6E8E241CABE4008BF306 /* NFCWritterHelper.mm */; };
+		86FEAF56241F59B700DD8EE1 /* EmulationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FEAF55241F59B700DD8EE1 /* EmulationViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +21,10 @@
 		869F6E85241CABE4008BF306 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
 		869F6E8A241CABE4008BF306 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		869F6E8C241CABE4008BF306 /* NFCWritterHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NFCWritterHelper-Prefix.pch"; path = "../NFCWritterHelper-Prefix.pch"; sourceTree = "<group>"; };
-		869F6E8D241CABE4008BF306 /* NFCWritterHelper.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = NFCWritterHelper.xm; sourceTree = "<group>"; };
+		869F6E8D241CABE4008BF306 /* NFCWritterHelper.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NFCWritterHelper.xm; sourceTree = "<group>"; };
 		869F6E8E241CABE4008BF306 /* NFCWritterHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NFCWritterHelper.mm; sourceTree = "<group>"; };
 		869F6E93241CABE4008BF306 /* NFCWritterHelper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NFCWritterHelper.plist; sourceTree = "<group>"; };
+		86FEAF55241F59B700DD8EE1 /* EmulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmulationViewController.h; path = Header/EmulationViewController.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,8 @@
 		869F6E87241CABE4008BF306 /* NFCWritterHelper */ = {
 			isa = PBXGroup;
 			children = (
+				86FEAF55241F59B700DD8EE1 /* EmulationViewController.h */,
+				86FEAF54241F599F00DD8EE1 /* header */,
 				869F6E8D241CABE4008BF306 /* NFCWritterHelper.xm */,
 				869F6E8E241CABE4008BF306 /* NFCWritterHelper.mm */,
 				869F6E88241CABE4008BF306 /* Package */,
@@ -126,6 +130,13 @@
 			path = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		86FEAF54241F599F00DD8EE1 /* header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -133,6 +144,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FEAF56241F59B700DD8EE1 /* EmulationViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +253,7 @@
 		869F6E94241CABE4008BF306 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -266,6 +279,7 @@
 		869F6E95241CABE4008BF306 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -300,7 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFF68NT75V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -311,9 +325,9 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = "DbApp@anheng888";
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
@@ -326,7 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFF68NT75V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -337,9 +351,9 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = "DbApp@anheng888";
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
