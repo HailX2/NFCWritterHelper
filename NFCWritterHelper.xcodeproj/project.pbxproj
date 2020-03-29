@@ -3,11 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		869F6E82241CABE4008BF306 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E81241CABE4008BF306 /* UIKit.framework */; };
+		8604CE3224282911006C7C12 /* EmulationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CDFB24282909006C7C12 /* EmulationViewController.h */; };
+		8604CE3324282911006C7C12 /* TestResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CDFC24282909006C7C12 /* TestResponder.h */; };
+		8604CE3424282911006C7C12 /* EMVAuthController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CDFD2428290A006C7C12 /* EMVAuthController.h */; };
+		8604CE3524282911006C7C12 /* UITextViewDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CDFE2428290A006C7C12 /* UITextViewDelegate-Protocol.h */; };
+		8604CE3624282911006C7C12 /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CDFF2428290A006C7C12 /* ReaderViewController.h */; };
+		8604CE3724282911006C7C12 /* UITableViewDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE002428290A006C7C12 /* UITableViewDelegate-Protocol.h */; };
+		8604CE3824282911006C7C12 /* CNContactViewControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE012428290B006C7C12 /* CNContactViewControllerDelegate-Protocol.h */; };
+		8604CE3924282911006C7C12 /* EmulationNDEFPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE022428290B006C7C12 /* EmulationNDEFPicker.h */; };
+		8604CE3A24282911006C7C12 /* ManageRecordsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE032428290B006C7C12 /* ManageRecordsCell.h */; };
+		8604CE3B24282911006C7C12 /* LastLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE042428290B006C7C12 /* LastLogViewController.h */; };
+		8604CE3C24282911006C7C12 /* NFCWriterApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE052428290B006C7C12 /* NFCWriterApplication.h */; };
+		8604CE3D24282911006C7C12 /* WriterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE062428290B006C7C12 /* WriterViewController.h */; };
+		8604CE3E24282911006C7C12 /* NSArray-limadded.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE072428290C006C7C12 /* NSArray-limadded.h */; };
+		8604CE3F24282911006C7C12 /* SettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE082428290C006C7C12 /* SettingsController.h */; };
+		8604CE4024282911006C7C12 /* OtherViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE092428290C006C7C12 /* OtherViewController.h */; };
+		8604CE4124282911006C7C12 /* ManageRecordsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0A2428290C006C7C12 /* ManageRecordsViewController.h */; };
+		8604CE4224282911006C7C12 /* NFCClientController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0B2428290C006C7C12 /* NFCClientController.h */; };
+		8604CE4324282911006C7C12 /* NFCWriterTransmissionLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0C2428290C006C7C12 /* NFCWriterTransmissionLogViewController.h */; };
+		8604CE4424282911006C7C12 /* MainTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0D2428290C006C7C12 /* MainTabBarController.h */; };
+		8604CE4524282911006C7C12 /* RoundedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0E2428290D006C7C12 /* RoundedCell.h */; };
+		8604CE4624282911006C7C12 /* TelRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE0F2428290D006C7C12 /* TelRecordViewController.h */; };
+		8604CE4724282911006C7C12 /* CNContactPickerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE102428290D006C7C12 /* CNContactPickerDelegate-Protocol.h */; };
+		8604CE4824282911006C7C12 /* NSString-lim.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE112428290D006C7C12 /* NSString-lim.h */; };
+		8604CE4924282911006C7C12 /* SMSRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE122428290D006C7C12 /* SMSRecordViewController.h */; };
+		8604CE4A24282911006C7C12 /* MFMailComposeViewControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE132428290D006C7C12 /* MFMailComposeViewControllerDelegate-Protocol.h */; };
+		8604CE4B24282911006C7C12 /* ShowTagViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE142428290E006C7C12 /* ShowTagViewController.h */; };
+		8604CE4C24282911006C7C12 /* LimTransferLicenseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE152428290E006C7C12 /* LimTransferLicenseController.h */; };
+		8604CE4D24282911006C7C12 /* RecordPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE162428290E006C7C12 /* RecordPickerController.h */; };
+		8604CE4E24282911006C7C12 /* NSData-lim.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE172428290E006C7C12 /* NSData-lim.h */; };
+		8604CE4F24282911006C7C12 /* ManageTagsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE182428290E006C7C12 /* ManageTagsViewController.h */; };
+		8604CE5024282911006C7C12 /* UITableViewDataSource-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE192428290E006C7C12 /* UITableViewDataSource-Protocol.h */; };
+		8604CE5124282911006C7C12 /* NFCWriterFieldSessionDelegateObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1A2428290E006C7C12 /* NFCWriterFieldSessionDelegateObject.h */; };
+		8604CE5224282911006C7C12 /* ShowRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1B2428290E006C7C12 /* ShowRecordViewController.h */; };
+		8604CE5324282911006C7C12 /* ReadMemoryResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1C2428290F006C7C12 /* ReadMemoryResultsController.h */; };
+		8604CE5424282911006C7C12 /* UIApplicationDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1D2428290F006C7C12 /* UIApplicationDelegate-Protocol.h */; };
+		8604CE5524282911006C7C12 /* CDStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1E2428290F006C7C12 /* CDStructures.h */; };
+		8604CE5624282911006C7C12 /* NFCServerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE1F2428290F006C7C12 /* NFCServerController.h */; };
+		8604CE5724282911006C7C12 /* URIRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE202428290F006C7C12 /* URIRecordViewController.h */; };
+		8604CE5824282911006C7C12 /* AddContactRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE212428290F006C7C12 /* AddContactRecordViewController.h */; };
+		8604CE5924282911006C7C12 /* NSObject-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE222428290F006C7C12 /* NSObject-Protocol.h */; };
+		8604CE5A24282911006C7C12 /* IDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE232428290F006C7C12 /* IDTextField.h */; };
+		8604CE5B24282911006C7C12 /* WIFIRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE242428290F006C7C12 /* WIFIRecordViewController.h */; };
+		8604CE5C24282911006C7C12 /* UITextFieldDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE252428290F006C7C12 /* UITextFieldDelegate-Protocol.h */; };
+		8604CE5D24282911006C7C12 /* RecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2624282910006C7C12 /* RecordViewController.h */; };
+		8604CE5E24282911006C7C12 /* DiscoverMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2724282910006C7C12 /* DiscoverMapViewController.h */; };
+		8604CE5F24282911006C7C12 /* SavedRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2824282910006C7C12 /* SavedRecordViewController.h */; };
+		8604CE6024282911006C7C12 /* AdvancedTransceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2924282910006C7C12 /* AdvancedTransceiver.h */; };
+		8604CE6124282911006C7C12 /* MailRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2A24282910006C7C12 /* MailRecordViewController.h */; };
+		8604CE6224282911006C7C12 /* BlurredLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2B24282910006C7C12 /* BlurredLabel.h */; };
+		8604CE6324282911006C7C12 /* UITabBarControllerDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2C24282910006C7C12 /* UITabBarControllerDelegate-Protocol.h */; };
+		8604CE6424282911006C7C12 /* NFCChipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2D24282910006C7C12 /* NFCChipManager.h */; };
+		8604CE6524282911006C7C12 /* MRTDAuthController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2E24282911006C7C12 /* MRTDAuthController.h */; };
+		8604CE6624282911006C7C12 /* GIMME.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE2F24282911006C7C12 /* GIMME.h */; };
+		8604CE6724282911006C7C12 /* TextRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE3024282911006C7C12 /* TextRecordViewController.h */; };
+		8604CE6824282911006C7C12 /* UIScrollViewDelegate-Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE3124282911006C7C12 /* UIScrollViewDelegate-Protocol.h */; };
+		8604CE70242838DE006C7C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E81241CABE4008BF306 /* UIKit.framework */; platformFilter = ios; };
+		8604CE72242839B1006C7C12 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604CE71242839B1006C7C12 /* Header.h */; };
 		869F6E84241CABE4008BF306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E83241CABE4008BF306 /* Foundation.framework */; };
 		869F6E86241CABE4008BF306 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869F6E85241CABE4008BF306 /* CydiaSubstrate.framework */; };
 		869F6E8F241CABE4008BF306 /* NFCWritterHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 869F6E8E241CABE4008BF306 /* NFCWritterHelper.mm */; };
@@ -15,6 +71,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8604CDFB24282909006C7C12 /* EmulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulationViewController.h; sourceTree = "<group>"; };
+		8604CDFC24282909006C7C12 /* TestResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestResponder.h; sourceTree = "<group>"; };
+		8604CDFD2428290A006C7C12 /* EMVAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVAuthController.h; sourceTree = "<group>"; };
+		8604CDFE2428290A006C7C12 /* UITextViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CDFF2428290A006C7C12 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		8604CE002428290A006C7C12 /* UITableViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE012428290B006C7C12 /* CNContactViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNContactViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE022428290B006C7C12 /* EmulationNDEFPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulationNDEFPicker.h; sourceTree = "<group>"; };
+		8604CE032428290B006C7C12 /* ManageRecordsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageRecordsCell.h; sourceTree = "<group>"; };
+		8604CE042428290B006C7C12 /* LastLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastLogViewController.h; sourceTree = "<group>"; };
+		8604CE052428290B006C7C12 /* NFCWriterApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCWriterApplication.h; sourceTree = "<group>"; };
+		8604CE062428290B006C7C12 /* WriterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriterViewController.h; sourceTree = "<group>"; };
+		8604CE072428290C006C7C12 /* NSArray-limadded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray-limadded.h"; sourceTree = "<group>"; };
+		8604CE082428290C006C7C12 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		8604CE092428290C006C7C12 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		8604CE0A2428290C006C7C12 /* ManageRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageRecordsViewController.h; sourceTree = "<group>"; };
+		8604CE0B2428290C006C7C12 /* NFCClientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCClientController.h; sourceTree = "<group>"; };
+		8604CE0C2428290C006C7C12 /* NFCWriterTransmissionLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCWriterTransmissionLogViewController.h; sourceTree = "<group>"; };
+		8604CE0D2428290C006C7C12 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		8604CE0E2428290D006C7C12 /* RoundedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCell.h; sourceTree = "<group>"; };
+		8604CE0F2428290D006C7C12 /* TelRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelRecordViewController.h; sourceTree = "<group>"; };
+		8604CE102428290D006C7C12 /* CNContactPickerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNContactPickerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE112428290D006C7C12 /* NSString-lim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-lim.h"; sourceTree = "<group>"; };
+		8604CE122428290D006C7C12 /* SMSRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSRecordViewController.h; sourceTree = "<group>"; };
+		8604CE132428290D006C7C12 /* MFMailComposeViewControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFMailComposeViewControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE142428290E006C7C12 /* ShowTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTagViewController.h; sourceTree = "<group>"; };
+		8604CE152428290E006C7C12 /* LimTransferLicenseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimTransferLicenseController.h; sourceTree = "<group>"; };
+		8604CE162428290E006C7C12 /* RecordPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordPickerController.h; sourceTree = "<group>"; };
+		8604CE172428290E006C7C12 /* NSData-lim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-lim.h"; sourceTree = "<group>"; };
+		8604CE182428290E006C7C12 /* ManageTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTagsViewController.h; sourceTree = "<group>"; };
+		8604CE192428290E006C7C12 /* UITableViewDataSource-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewDataSource-Protocol.h"; sourceTree = "<group>"; };
+		8604CE1A2428290E006C7C12 /* NFCWriterFieldSessionDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCWriterFieldSessionDelegateObject.h; sourceTree = "<group>"; };
+		8604CE1B2428290E006C7C12 /* ShowRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRecordViewController.h; sourceTree = "<group>"; };
+		8604CE1C2428290F006C7C12 /* ReadMemoryResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadMemoryResultsController.h; sourceTree = "<group>"; };
+		8604CE1D2428290F006C7C12 /* UIApplicationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplicationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE1E2428290F006C7C12 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		8604CE1F2428290F006C7C12 /* NFCServerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCServerController.h; sourceTree = "<group>"; };
+		8604CE202428290F006C7C12 /* URIRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URIRecordViewController.h; sourceTree = "<group>"; };
+		8604CE212428290F006C7C12 /* AddContactRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactRecordViewController.h; sourceTree = "<group>"; };
+		8604CE222428290F006C7C12 /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		8604CE232428290F006C7C12 /* IDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTextField.h; sourceTree = "<group>"; };
+		8604CE242428290F006C7C12 /* WIFIRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFIRecordViewController.h; sourceTree = "<group>"; };
+		8604CE252428290F006C7C12 /* UITextFieldDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextFieldDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE2624282910006C7C12 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		8604CE2724282910006C7C12 /* DiscoverMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverMapViewController.h; sourceTree = "<group>"; };
+		8604CE2824282910006C7C12 /* SavedRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedRecordViewController.h; sourceTree = "<group>"; };
+		8604CE2924282910006C7C12 /* AdvancedTransceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedTransceiver.h; sourceTree = "<group>"; };
+		8604CE2A24282910006C7C12 /* MailRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailRecordViewController.h; sourceTree = "<group>"; };
+		8604CE2B24282910006C7C12 /* BlurredLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurredLabel.h; sourceTree = "<group>"; };
+		8604CE2C24282910006C7C12 /* UITabBarControllerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarControllerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE2D24282910006C7C12 /* NFCChipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCChipManager.h; sourceTree = "<group>"; };
+		8604CE2E24282911006C7C12 /* MRTDAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTDAuthController.h; sourceTree = "<group>"; };
+		8604CE2F24282911006C7C12 /* GIMME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMME.h; sourceTree = "<group>"; };
+		8604CE3024282911006C7C12 /* TextRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextRecordViewController.h; sourceTree = "<group>"; };
+		8604CE3124282911006C7C12 /* UIScrollViewDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollViewDelegate-Protocol.h"; sourceTree = "<group>"; };
+		8604CE71242839B1006C7C12 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		869F6E7E241CABE4008BF306 /* NFCWritterHelper.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = NFCWritterHelper.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		869F6E81241CABE4008BF306 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		869F6E83241CABE4008BF306 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,8 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				869F6E82241CABE4008BF306 /* UIKit.framework in Frameworks */,
 				869F6E84241CABE4008BF306 /* Foundation.framework in Frameworks */,
+				8604CE70242838DE006C7C12 /* UIKit.framework in Frameworks */,
 				869F6E86241CABE4008BF306 /* CydiaSubstrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				86FEAF55241F59B700DD8EE1 /* EmulationViewController.h */,
+				8604CE71242839B1006C7C12 /* Header.h */,
+				8604CE0D2428290C006C7C12 /* MainTabBarController.h */,
+				8604CE022428290B006C7C12 /* EmulationNDEFPicker.h */,
 				86FEAF54241F599F00DD8EE1 /* header */,
 				869F6E8D241CABE4008BF306 /* NFCWritterHelper.xm */,
 				869F6E8E241CABE4008BF306 /* NFCWritterHelper.mm */,
@@ -133,6 +248,59 @@
 		86FEAF54241F599F00DD8EE1 /* header */ = {
 			isa = PBXGroup;
 			children = (
+				8604CE212428290F006C7C12 /* AddContactRecordViewController.h */,
+				8604CE2924282910006C7C12 /* AdvancedTransceiver.h */,
+				8604CE2B24282910006C7C12 /* BlurredLabel.h */,
+				8604CE1E2428290F006C7C12 /* CDStructures.h */,
+				8604CE102428290D006C7C12 /* CNContactPickerDelegate-Protocol.h */,
+				8604CE012428290B006C7C12 /* CNContactViewControllerDelegate-Protocol.h */,
+				8604CE2724282910006C7C12 /* DiscoverMapViewController.h */,
+				8604CDFB24282909006C7C12 /* EmulationViewController.h */,
+				8604CDFD2428290A006C7C12 /* EMVAuthController.h */,
+				8604CE2F24282911006C7C12 /* GIMME.h */,
+				8604CE232428290F006C7C12 /* IDTextField.h */,
+				8604CE042428290B006C7C12 /* LastLogViewController.h */,
+				8604CE152428290E006C7C12 /* LimTransferLicenseController.h */,
+				8604CE2A24282910006C7C12 /* MailRecordViewController.h */,
+				8604CE032428290B006C7C12 /* ManageRecordsCell.h */,
+				8604CE0A2428290C006C7C12 /* ManageRecordsViewController.h */,
+				8604CE182428290E006C7C12 /* ManageTagsViewController.h */,
+				8604CE132428290D006C7C12 /* MFMailComposeViewControllerDelegate-Protocol.h */,
+				8604CE2E24282911006C7C12 /* MRTDAuthController.h */,
+				8604CE2D24282910006C7C12 /* NFCChipManager.h */,
+				8604CE0B2428290C006C7C12 /* NFCClientController.h */,
+				8604CE1F2428290F006C7C12 /* NFCServerController.h */,
+				8604CE052428290B006C7C12 /* NFCWriterApplication.h */,
+				8604CE1A2428290E006C7C12 /* NFCWriterFieldSessionDelegateObject.h */,
+				8604CE0C2428290C006C7C12 /* NFCWriterTransmissionLogViewController.h */,
+				8604CE072428290C006C7C12 /* NSArray-limadded.h */,
+				8604CE172428290E006C7C12 /* NSData-lim.h */,
+				8604CE222428290F006C7C12 /* NSObject-Protocol.h */,
+				8604CE112428290D006C7C12 /* NSString-lim.h */,
+				8604CE092428290C006C7C12 /* OtherViewController.h */,
+				8604CDFF2428290A006C7C12 /* ReaderViewController.h */,
+				8604CE1C2428290F006C7C12 /* ReadMemoryResultsController.h */,
+				8604CE162428290E006C7C12 /* RecordPickerController.h */,
+				8604CE2624282910006C7C12 /* RecordViewController.h */,
+				8604CE0E2428290D006C7C12 /* RoundedCell.h */,
+				8604CE2824282910006C7C12 /* SavedRecordViewController.h */,
+				8604CE082428290C006C7C12 /* SettingsController.h */,
+				8604CE1B2428290E006C7C12 /* ShowRecordViewController.h */,
+				8604CE142428290E006C7C12 /* ShowTagViewController.h */,
+				8604CE122428290D006C7C12 /* SMSRecordViewController.h */,
+				8604CE0F2428290D006C7C12 /* TelRecordViewController.h */,
+				8604CDFC24282909006C7C12 /* TestResponder.h */,
+				8604CE3024282911006C7C12 /* TextRecordViewController.h */,
+				8604CE1D2428290F006C7C12 /* UIApplicationDelegate-Protocol.h */,
+				8604CE3124282911006C7C12 /* UIScrollViewDelegate-Protocol.h */,
+				8604CE2C24282910006C7C12 /* UITabBarControllerDelegate-Protocol.h */,
+				8604CE192428290E006C7C12 /* UITableViewDataSource-Protocol.h */,
+				8604CE002428290A006C7C12 /* UITableViewDelegate-Protocol.h */,
+				8604CE252428290F006C7C12 /* UITextFieldDelegate-Protocol.h */,
+				8604CDFE2428290A006C7C12 /* UITextViewDelegate-Protocol.h */,
+				8604CE202428290F006C7C12 /* URIRecordViewController.h */,
+				8604CE242428290F006C7C12 /* WIFIRecordViewController.h */,
+				8604CE062428290B006C7C12 /* WriterViewController.h */,
 			);
 			path = header;
 			sourceTree = "<group>";
@@ -144,7 +312,63 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8604CE3224282911006C7C12 /* EmulationViewController.h in Headers */,
+				8604CE4424282911006C7C12 /* MainTabBarController.h in Headers */,
+				8604CE5024282911006C7C12 /* UITableViewDataSource-Protocol.h in Headers */,
+				8604CE4C24282911006C7C12 /* LimTransferLicenseController.h in Headers */,
+				8604CE4324282911006C7C12 /* NFCWriterTransmissionLogViewController.h in Headers */,
 				86FEAF56241F59B700DD8EE1 /* EmulationViewController.h in Headers */,
+				8604CE3F24282911006C7C12 /* SettingsController.h in Headers */,
+				8604CE6024282911006C7C12 /* AdvancedTransceiver.h in Headers */,
+				8604CE4224282911006C7C12 /* NFCClientController.h in Headers */,
+				8604CE3A24282911006C7C12 /* ManageRecordsCell.h in Headers */,
+				8604CE4724282911006C7C12 /* CNContactPickerDelegate-Protocol.h in Headers */,
+				8604CE5324282911006C7C12 /* ReadMemoryResultsController.h in Headers */,
+				8604CE6424282911006C7C12 /* NFCChipManager.h in Headers */,
+				8604CE5E24282911006C7C12 /* DiscoverMapViewController.h in Headers */,
+				8604CE5924282911006C7C12 /* NSObject-Protocol.h in Headers */,
+				8604CE6824282911006C7C12 /* UIScrollViewDelegate-Protocol.h in Headers */,
+				8604CE5624282911006C7C12 /* NFCServerController.h in Headers */,
+				8604CE3624282911006C7C12 /* ReaderViewController.h in Headers */,
+				8604CE5424282911006C7C12 /* UIApplicationDelegate-Protocol.h in Headers */,
+				8604CE3C24282911006C7C12 /* NFCWriterApplication.h in Headers */,
+				8604CE3E24282911006C7C12 /* NSArray-limadded.h in Headers */,
+				8604CE4824282911006C7C12 /* NSString-lim.h in Headers */,
+				8604CE4D24282911006C7C12 /* RecordPickerController.h in Headers */,
+				8604CE4E24282911006C7C12 /* NSData-lim.h in Headers */,
+				8604CE4524282911006C7C12 /* RoundedCell.h in Headers */,
+				8604CE6624282911006C7C12 /* GIMME.h in Headers */,
+				8604CE3524282911006C7C12 /* UITextViewDelegate-Protocol.h in Headers */,
+				8604CE5B24282911006C7C12 /* WIFIRecordViewController.h in Headers */,
+				8604CE3324282911006C7C12 /* TestResponder.h in Headers */,
+				8604CE5124282911006C7C12 /* NFCWriterFieldSessionDelegateObject.h in Headers */,
+				8604CE4924282911006C7C12 /* SMSRecordViewController.h in Headers */,
+				8604CE6224282911006C7C12 /* BlurredLabel.h in Headers */,
+				8604CE3724282911006C7C12 /* UITableViewDelegate-Protocol.h in Headers */,
+				8604CE3824282911006C7C12 /* CNContactViewControllerDelegate-Protocol.h in Headers */,
+				8604CE4124282911006C7C12 /* ManageRecordsViewController.h in Headers */,
+				8604CE5D24282911006C7C12 /* RecordViewController.h in Headers */,
+				8604CE3B24282911006C7C12 /* LastLogViewController.h in Headers */,
+				8604CE4024282911006C7C12 /* OtherViewController.h in Headers */,
+				8604CE4A24282911006C7C12 /* MFMailComposeViewControllerDelegate-Protocol.h in Headers */,
+				8604CE4624282911006C7C12 /* TelRecordViewController.h in Headers */,
+				8604CE5724282911006C7C12 /* URIRecordViewController.h in Headers */,
+				8604CE6724282911006C7C12 /* TextRecordViewController.h in Headers */,
+				8604CE4B24282911006C7C12 /* ShowTagViewController.h in Headers */,
+				8604CE5224282911006C7C12 /* ShowRecordViewController.h in Headers */,
+				8604CE5824282911006C7C12 /* AddContactRecordViewController.h in Headers */,
+				8604CE6524282911006C7C12 /* MRTDAuthController.h in Headers */,
+				8604CE3924282911006C7C12 /* EmulationNDEFPicker.h in Headers */,
+				8604CE6124282911006C7C12 /* MailRecordViewController.h in Headers */,
+				8604CE6324282911006C7C12 /* UITabBarControllerDelegate-Protocol.h in Headers */,
+				8604CE3D24282911006C7C12 /* WriterViewController.h in Headers */,
+				8604CE5524282911006C7C12 /* CDStructures.h in Headers */,
+				8604CE5A24282911006C7C12 /* IDTextField.h in Headers */,
+				8604CE5C24282911006C7C12 /* UITextFieldDelegate-Protocol.h in Headers */,
+				8604CE4F24282911006C7C12 /* ManageTagsViewController.h in Headers */,
+				8604CE72242839B1006C7C12 /* Header.h in Headers */,
+				8604CE3424282911006C7C12 /* EMVAuthController.h in Headers */,
+				8604CE5F24282911006C7C12 /* SavedRecordViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos\n";
 		};
 		869F6E7C241CABE4008BF306 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -234,7 +458,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -325,12 +549,12 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDeviceIP = 192.168.2.4;
 				MonkeyDevDevicePassword = "DbApp@anheng888";
-				MonkeyDevDevicePort = 2222;
+				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = NFCWriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,12 +575,12 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDeviceIP = 192.168.2.4;
 				MonkeyDevDevicePassword = "DbApp@anheng888";
-				MonkeyDevDevicePort = 2222;
+				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = NFCWriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

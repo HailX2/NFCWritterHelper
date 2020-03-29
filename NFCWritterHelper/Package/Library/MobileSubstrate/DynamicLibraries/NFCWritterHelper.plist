@@ -4,6 +4,10 @@
 <dict>
 	<key>Filter</key>
 	<dict>
+		<key>Executables</key>
+		<array>
+			<string>NFCWriter</string>
+		</array>
 		<key>Bundles</key>
 		<array>
 			<string>net.limneos.nfcwriter</string>
